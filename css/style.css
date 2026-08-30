@@ -108,9 +108,9 @@ main {
 }
 
 .redes-sociais ul a{
-    padding: 0.4vh;
+    padding: 0.1rem;
     color: #060207;
-    font-size: 4vh;
+    font-size: 1rem;
     background: linear-gradient(#460274,#9d11d4);
     border: 2px solid #fff;
     border-radius: 50%;
