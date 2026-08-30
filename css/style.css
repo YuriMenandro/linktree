@@ -1,0 +1,140 @@
+/*Reseta configrações padrões do navegador*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Corpo do site.*/
+body {
+    background: linear-gradient( 
+        #320650 0%,
+        #5b038d 20%,
+        #9d11d4 60%,
+        #e86af3 100% 
+    );
+    min-height: 100vh;
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+    color: #fcfcfc;
+}
+
+.content-box {
+    width: 300px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 25px;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.perfil img {
+    border-radius: 50%;
+    border: 2.5px solid white;
+    width: 100px;
+    height: 100px;
+}
+
+.perfil h1 {
+    font-size: 1.5rem;
+}
+
+.perfil p {
+    text-align: center;
+    font-size: 1rem;
+    text-shadow: 1px 1px 1px #00000071;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.links-principais ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.links-principais ul a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #060207;
+    background: linear-gradient( #9413eaa6 5%,#aa22f8a1 20%,#c231fb93 60%,#ffb3ff7e 100%);
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.562);
+
+}
+
+.links-principais ul a:hover {
+    background: linear gradient(#9a48b6,#790bb9 );
+    color: #fcfafc;
+    border: 2px solid #ffe6ff;
+    transition: background-color 0.2s ease;
+}
+
+.links-principais ul a i {
+    padding-right: 1rem;
+    font-size: 1.3rem;
+}
+
+.links-principais ul a span {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.redes-sociais ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.redes-sociais ul a{
+    padding: 0.4vh;
+    color: #060207;
+    font-size: 4vh;
+    background: linear-gradient(#460274,#9d11d4);
+    border: 2px solid #fff;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 1px #0f0f0f;
+}
+
+.redes-sociais ul a.icon-steam:hover{
+    color: #011a27 ;
+    background: linear-gradient( #052333,  #1e97d8 );
+}
+
+.redes-sociais ul a.icon-spotify:hover{
+    color: #1DB954 ;
+    background: linear-gradient(#02200c,  #036324);
+}
+
+.redes-sociais ul a.icon-pinterest:hover{
+    color: #E60023;
+    background: #fff;
+}
+
+footer {
+    text-align: center;
+    font-weight: 100;
+}
