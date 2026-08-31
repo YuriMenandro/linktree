@@ -112,24 +112,24 @@ main {
     color: #060207;
     font-size: 1.6rem;
     background: linear-gradient(#460274,#9d11d4);
-    border: 2px solid #fff;
+    border: 2px solid #a087a0;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
     box-shadow: 1px 1px 1px #0f0f0f;
 }
 
-.redes-sociais ul a.icon-steam:hover{
+.redes-sociais ul a.icon-steam{
     color: #011a27 ;
     background: linear-gradient( #052333,  #1e97d8 );
 }
 
-.redes-sociais ul a.icon-spotify:hover{
+.redes-sociais ul a.icon-spotify{
     color: #1DB954 ;
     background: linear-gradient(#02200c,  #036324);
 }
 
-.redes-sociais ul a.icon-pinterest:hover{
+.redes-sociais ul a.icon-pinterest{
     color: #E60023;
     background: #fff;
 }
@@ -137,4 +137,9 @@ main {
 footer {
     text-align: center;
     font-weight: 100;
+}
+
+footer span {
+    font-family: 'Palatino';
+    letter-spacing: 2px;
 }
