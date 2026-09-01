@@ -112,11 +112,11 @@ main {
     color: #060207;
     font-size: 1.6rem;
     background: linear-gradient(#460274,#9d11d4);
-    border: 2px solid #a087a0;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
     box-shadow: 1px 1px 1px #0f0f0f;
+    box-shadow: inset 0.8px 0.5px 0.3px white;
 }
 
 .redes-sociais ul a.icon-steam{
@@ -131,7 +131,7 @@ main {
 
 .redes-sociais ul a.icon-pinterest{
     color: #E60023;
-    background: #fff;
+    background: #f3e5e5;
 }
 
 footer {
@@ -141,5 +141,6 @@ footer {
 
 footer span {
     font-family: 'Palatino';
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.267);
 }
